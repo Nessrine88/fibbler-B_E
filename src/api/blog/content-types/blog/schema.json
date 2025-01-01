@@ -34,11 +34,6 @@
       "target": "api::doc.doc",
       "mappedBy": "blog"
     },
-    "author": {
-      "type": "component",
-      "repeatable": false,
-      "component": "author.author"
-    },
     "heading2": {
       "type": "string"
     },
@@ -52,27 +47,29 @@
       "type": "richtext"
     },
     "image1": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "section3_part1": {
       "type": "richtext"
     },
     "image2": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "section3_part2": {
       "type": "richtext"
