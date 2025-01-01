@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_paragraphs",
+  "info": {
+    "displayName": "paragraph"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

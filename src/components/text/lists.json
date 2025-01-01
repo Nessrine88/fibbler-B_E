@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_lists",
+  "info": {
+    "displayName": "lists"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "introduction": {
+      "type": "text",
+      "required": false
+    },
+    "quickLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.link"
+    },
+    "heading1": {
+      "type": "string"
+    },
+    "doc": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::doc.doc",
+      "mappedBy": "blog"
+    },
+    "author": {
+      "type": "component",
+      "repeatable": false,
+      "component": "author.author"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "section1": {
+      "type": "richtext"
+    },
+    "heading3": {
+      "type": "string"
+    },
+    "section2": {
+      "type": "richtext"
+    },
+    "image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "section3_part1": {
+      "type": "richtext"
+    },
+    "image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "section3_part2": {
+      "type": "richtext"
+    },
+    "heading4": {
+      "type": "string"
+    },
+    "section4": {
+      "type": "richtext"
+    },
+    "heading5": {
+      "type": "string"
+    },
+    "section5": {
+      "type": "richtext"
+    }
+  }
+}

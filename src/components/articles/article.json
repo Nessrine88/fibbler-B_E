@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_articles_articles",
+  "info": {
+    "displayName": "article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "author": {
+      "displayName": "author",
+      "type": "component",
+      "repeatable": false,
+      "component": "author.author"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_links",
+  "info": {
+    "displayName": "link"
+  },
+  "options": {},
+  "attributes": {
+    "linkName": {
+      "type": "string"
+    },
+    "linkAnchor": {
+      "type": "string"
+    }
+  }
+}
