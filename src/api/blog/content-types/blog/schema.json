@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "headline": {
-      "type": "string",
-      "required": true
-    },
     "introduction": {
       "type": "text",
       "required": false

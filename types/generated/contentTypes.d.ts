@@ -390,7 +390,6 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
     heading3: Schema.Attribute.String;
     heading4: Schema.Attribute.String;
     heading5: Schema.Attribute.String;
-    headline: Schema.Attribute.String & Schema.Attribute.Required;
     image1: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
